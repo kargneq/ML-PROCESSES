@@ -1,8 +1,6 @@
 # Codes
 **CODE 0**
 ```python
-# CODE0
-# CODE 0
 import seaborn as sns
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -13,7 +11,6 @@ pd.set_option(‘max_columns’, None)
 ```
 **CODE 1**
 ```Python
-# CODE1
 from sklearn.impute import SimpleImputer
 imp = SimpleImputer(missing_values=np.nan, strategy=‘mean’)
 imp.fit_transform(X)
