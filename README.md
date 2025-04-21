@@ -76,7 +76,7 @@ imp.fit_transform(X)
 
 ## Feature Selection + Data Preparation
 
-1. Use `sklearn.compose.ColumnTransformer` to apply feature selection for individual columns.
+1. Use `sklearn.compose.make_column_transformer` to apply feature selection for individual columns.
 2. Use `sklearn.pipeline.make_pipeline` to make pipelines to automate stuff. Column transform can be added to it as a process.
 3. Dimensionality Reduction
 	- PCA: `sklearn.decomposition.PCA`
