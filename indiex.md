@@ -113,7 +113,7 @@ imp.fit_transform(X)
 	- Hashing Vectorizer: `sklearn.feature_extraction.text.HashingVectorizer`
 11. Feature Selection
 	- Keep the top k features: `sklearn.feature_selection.SelectKBest()` / `sklearn.feature_selection.SelectPercentile()`
-	- Recursive feature elimination: `sklearn.featur_selection.RFE()` / `sklearn.featur_selection.RFECV()`
+	- Recursive feature elimination: `sklearn.feature_selection.RFE()` / `sklearn.feature_selection.RFECV()`
 	- concatenate all the features obtained previously to get a new dataset. For concatenation use `pd.concat([], axis=1)`
 
 ## Other very cool stuff
